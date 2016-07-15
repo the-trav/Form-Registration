@@ -1,0 +1,32 @@
+html,body{
+    height:100%;
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+.reportTable tr:nth-child(even) {
+    background-color: #eee;
+}
+.reportTable tr:nth-child(odd) {
+   background-color:#fff;
+}
+.reportTable th {
+    background-color: black;
+    color: white;
+}
+.footer{
+    display:block;
+    margin-left: 45%;
+}
