@@ -186,7 +186,7 @@ public class RegistrationFormServlet extends HttpServlet {
      */
     @Override
     public String getServletInfo() {
-        return "Short description";
+        return "Servlet that reacts when user submits registration form, this servlet will than re route the user accordingly if he/she did or did not meet the validations";
     }// </editor-fold>
 
 }
